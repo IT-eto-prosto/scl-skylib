@@ -1,64 +1,173 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 html {
-  background: #f5f5dc; }
-  html main {
-    width: 60%;
-    margin: 0 20%; }
+  background: #f5f5dc;
+}
+
+html main {
+  width: 60%;
+  margin: 0 20%;
+}
+
+.spoiler {
+  color: #f5f5dc;
+  border: 1px dashed #000000;
+}
 
 header {
   margin-top: 25px;
   display: flex;
   justify-content: space-around;
-  margin-bottom: 30px; }
-  header .logo-container {
-    display: flex;
-    justify-content: center; }
-    header .logo-container .logo {
-      margin-right: 10px; }
-      header .logo-container .logo img {
-        border-radius: 50%; }
-    header .logo-container .title p {
-      color: #bbb; }
-  header .contacts {
-    display: flex;
-    justify-content: center; }
-    header .contacts div {
-      margin-right: 10px;
-      display: flex;
-      justify-content: center;
-      flex-direction: column; }
-      header .contacts div:last-child {
-        margin-right: 0; }
-        header .contacts div:last-child p a {
-          color: #000;
-          text-decoration: none;
-          font-style: italic; }
-          header .contacts div:last-child p a:hover, header .contacts div:last-child p a:active {
-            text-decoration: underline; }
+  margin-bottom: 30px;
+}
+
+header .logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+header .logo-container .logo {
+  margin-right: 10px;
+}
+
+header .logo-container .logo img {
+  border-radius: 50%;
+}
+
+header .logo-container .title p {
+  color: #bbb;
+}
+
+header .contacts {
+  display: flex;
+  justify-content: center;
+}
+
+header .contacts div {
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+header .contacts div:last-child {
+  margin-right: 0;
+}
+
+header .contacts div:last-child p a {
+  color: #000;
+  text-decoration: none;
+  font-style: italic;
+}
+
+header .contacts div:last-child p a:hover, header .contacts div:last-child p a:active {
+  text-decoration: underline;
+}
 
 main .maintenance {
-  margin-bottom: 20px; }
-  main .maintenance figure details {
-    width: 25%; }
-    main .maintenance figure details ol li a {
-      text-decoration: none;
-      color: #000; }
-      main .maintenance figure details ol li a:hover, main .maintenance figure details ol li a:active {
-        text-decoration: underline; }
+  margin-bottom: 20px;
+}
+
+main .maintenance figure details {
+  width: 25%;
+}
+
+main .maintenance figure details ol li a {
+  color: #000;
+  text-decoration: none;
+  font-style: normal;
+}
+
+main .maintenance figure details ol li a:hover, main .maintenance figure details ol li a:active {
+  text-decoration: underline;
+}
 
 main article {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  display: flex;
+}
+
+main article .text {
+  width: 70%;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: -10px;
+}
+
+main article .images {
+  width: 25%;
+}
+
+main article .images table tr td {
+  height: 182.6px;
+  width: 200px !important;
+}
+
+main article .images table tr td img:nth-of-type(1) {
+  width: 168px;
+  height: 126px;
+  border: 5px solid #d1d0bb;
+  border-radius: 5px;
+}
+
+main article .images table tr td img:nth-of-type(2) {
+  width: 162.2px;
+  height: 121.6px;
+  border: 5px solid #d1d0bb;
+  border-radius: 5px;
+}
+
+main article .images table tr td img:nth-of-type(3) {
+  width: 175px;
+  height: 98.4px;
+  border: 5px solid #d1d0bb;
+  border-radius: 5px;
+}
+
+main article .images table tr td img:nth-of-type(4) {
+  width: 179.6px;
+  height: 83px;
+  border: 5px solid #d1d0bb;
+  border-radius: 5px;
+}
+
+main article .images table tr td img:nth-of-type(5) {
+  width: 182.6px;
+  height: 182.6px;
+  border: 5px solid #d1d0bb;
+  border-radius: 5px;
+}
+
+main article .images table tr td a {
+  color: #000;
+  text-decoration: none;
+  font-style: normal;
+  text-decoration: underline;
+  text-align: center;
+}
+
+main article .images table tr td a:hover, main article .images table tr td a:active {
+  text-decoration: underline;
+}
 
 footer {
-  margin-top: 30px; }
-  footer .copyright {
-    display: flex;
-    justify-content: center; }
-    footer .copyright .copyright-text a {
-      text-decoration: none;
-      color: #000000; }
-      footer .copyright .copyright-text a:hover, footer .copyright .copyright-text a:active {
-        text-decoration: underline; }
+  margin-top: 30px;
+}
+
+footer .copyright {
+  display: flex;
+  justify-content: center;
+}
+
+footer .copyright .copyright-text a {
+  color: #000;
+  text-decoration: none;
+  font-style: normal;
+}
+
+footer .copyright .copyright-text a:hover, footer .copyright .copyright-text a:active {
+  text-decoration: underline;
+}
