@@ -8,19 +8,20 @@
     <title>SCL Library</title>
     <link href="https://yt3.ggpht.com/ytc/AAUvwnhONw0FdF2Uyiiuh7f_L7KuhILvtiGu503xK5Zu0A=s88-c-k-c0x00ffffff-no-rj"
           rel="icon"/>
-    <link href="style.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
 <header>
     <div class="container logo-container">
         <div class="logo"><img
                 alt="SCL logo"
+                class="logo-img"
                 height="50"
                 src="https://yt3.ggpht.com/ytc/AAUvwnhONw0FdF2Uyiiuh7f_L7KuhILvtiGu503xK5Zu0A=s88-c-k-c0x00ffffff-no-rj"
                 width="50"></div>
         <div class="title">
             <h1>Библиотека SCL</h1>
-            <p>Sky: Children of the Light</p>
+            <p><i>Sky: Children of the Light</i></p>
         </div>
     </div>
     <div class="container contacts">
@@ -37,20 +38,50 @@
             <details>
                 <summary>Содержание</summary>
                 <ol>
-                    <li><a href="#growness">Как измерить свой рост?</a></li>
-                    <li><a href="#potions">Гайд по благословениям</a></li>
                     <li><a href="#currency">Гайд по валюте в Sky:COTL</a></li>
                 </ol>
             </details>
         </figure>
     </section>
-    <article class="growness" id="growness">
-        <h2><strong>1. Как измерить рост в Sky:COTL?</strong></h2>
-        <p>&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet delectus fuga natus voluptatem voluptatum. Aliquid animi atque error, eveniet facilis hic id inventore iusto labore minus mollitia, perspiciatis quisquam rem saepe soluta vero vitae voluptatum. Accusantium at blanditiis ducimus ea eum excepturi exercitationem explicabo, in magni minus odio possimus provident, quo quod rerum veniam voluptate voluptatum. Debitis facilis in magnam, magni modi pariatur porro praesentium, quia quis quod reprehenderit temporibus voluptates. Aperiam asperiores consectetur cupiditate in inventore ipsam iure magnam minus natus perferendis, rem rerum totam vitae! Ab aspernatur atque doloribus ea expedita hic inventore ipsum laboriosam tempora vero?</p>
-    </article>
-    <article class="growness" id="сurrency">
-        <h2><strong>2. Гайд по зельям</strong></h2>
-        <img src="https://media.discordapp.net/attachments/702412142476918856/744306468723097640/mi9.png?width=695&height=427" width="500"/>
+    <article class="currency" id="currency">
+        <div class="text">
+            <h2><strong>1. Гайд по валюте в Sky: COTL</strong></h2>
+            <br>
+            <h3>Сердца в игре получаются несколькими способами:</h3>
+            <ol>
+                <li>Купить одно Сердце у каждого духа за 3 Белых Свечи (только один раз).</li>
+                <li>Один раз в день можно получить Сердце в подарок от каждого друга через интерфейс друга или через
+                    созвездие в локации «Дом» за 3 Белых Свечи. Советуем пользоваться именно этим методом.
+                </li>
+                <li>Также по одному сердцу можно получить за медитацию перед плитами со звёздами. Первая плита находится
+                    у дерева, слева от обрыва в самом начале локации «Тайный лес». Вторая - <span class="spoiler">на Орбите, справа от места выбора аксессуаров.</span></span>
+                </li>
+                <li>По одному сердцу можно получить за каждую свечу-сообщение, набравшую 10 лайков от других игроков.
+                    Оставить их можно в специальных местах - алтарях благодарности. Сообщения в них хранятся 48 часов.
+                    При появлении медитации в списке ежедневных заданий можно увидеть алтари-задания. В них сообщения
+                    хранятся 24 часа. При достижении достаточного количества лайков сердце будет доступно на домашнем
+                    алтаре
+                </li>
+            </ol>
+        </div>
+        <div class="images">
+            <table>
+                <tr>
+                    <td>
+                        <img alt="" class="hearts1" src="./img/currency/hearts1.png">
+                        <a href="./img/currency/hearts1.png" target="_blank">Открыть в новой вкладке</a>
+                    </td>
+                    <td><img alt="" class="hearts2" src="./img/currency/hearts2.png"><a href="./img/currency/hearts2.png" target="_blank">Открыть в новой вкладке</a></td>
+                </tr>
+                <tr>
+                    <td><img alt="" class="hearts3" src="./img/currency/hearts3.png"><a href="./img/currency/hearts3.png" target="_blank">Открыть в новой вкладке</a></td>
+                    <td><img alt="" class="hearts4" src="./img/currency/hearts4.png"><a href="./img/currency/hearts4.png" target="_blank">Открыть в новой вкладке</a></td>
+                </tr>
+                <tr>
+                    <td><img alt="" class="shrineheart" src="./img/currency/shrineheart.png"><a href="./img/currency/shrineheart.png" target="_blank">Открыть в новой вкладке</a></td>
+                </tr>
+            </table>
+        </div>
     </article>
 </main>
 
@@ -60,6 +91,9 @@
         <p class="copyright-text"><a href="https://discord.gg/sscl">SCL © | 2020 - 2021</a></p>
     </div>
 </footer>
-<script src="script.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
